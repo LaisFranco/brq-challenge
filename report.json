@@ -1,0 +1,70 @@
+[
+  {
+    "uri": "features/automation_step.feature",
+    "id": "compra-de-item-em-site",
+    "keyword": "Funcionalidade",
+    "name": "Compra de item em site",
+    "description": "    Como um usuário do sistema\n    Eu quero realizar a compra de um item no site www.automationpractice.com\n    Em caráter de teste ",
+    "line": 4,
+    "elements": [
+      {
+        "id": "compra-de-item-em-site;acessar-o-site-automation-practice-com-sucesso",
+        "keyword": "Cenário",
+        "name": "Acessar o site Automation Practice com sucesso",
+        "description": "",
+        "line": 11,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33900
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15400
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu tenha acesso a internet",
+            "line": 12,
+            "output": [
+              "ola mundos"
+            ],
+            "match": {
+              "location": "C:/Users/srvin/OneDrive/Área de Trabalho/brq/brq-challenge/features/step_definitions/automation_step.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71400
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "o eu digito o endereço do site Automation Practice",
+            "line": 13,
+            "match": {
+              "location": "features/automation_step.feature:13"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "incompatible encoding regexp match (Windows-1252 regexp with UTF-8 string) (Encoding::CompatibilityError)",
+              "duration": 107971900
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

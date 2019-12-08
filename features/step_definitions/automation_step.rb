@@ -1,5 +1,6 @@
 
 Dado("que eu tenha acesso a internet") do
+    puts "ola mundos"
 end
 
 Quando(" eu digito o endereço do site Automation Practice") do
@@ -7,6 +8,7 @@ Quando(" eu digito o endereço do site Automation Practice") do
 end
 
 Quando("apertar o botao enter") do
+    puts "apertar o botao"
 end
 
 Entao("o browser deve exibir a página com title {string}") do |string|
