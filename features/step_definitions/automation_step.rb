@@ -1,16 +1,31 @@
 
 Dado("que eu tenha acesso a internet") do
-    puts "ola mundos"
+    puts "acesso a internet"
 end
 
-Quando(" eu digito o endereço do site Automation Practice") do
+Quando("eu digito o endereço do site Automation Practice") do
     visit 'http://automationpractice.com/index.php?'
+    
+
 end
 
 Quando("apertar o botao enter") do
     puts "apertar o botao"
 end
 
-Entao("o browser deve exibir a página com title {string}") do |string|
-    expect(page).to have_title "My Store"
+Entao("o browser deve exibir a página home") do 
+  visit 'http://automationpractice.com/index.php?'
 end
+
+Dado("que eu esteja na tela principal") do
+    puts "OLA"
+  end
+  
+  Quando("eu clicar no botao Dresses") do
+   find('class.sf-with-ul').click
+  end
+  
+  Entao("eu serei redirecionado para a pagina de Dresses") do
+    puts "ola"
+  end
+  
