@@ -467,40 +467,47 @@ function makeRed(element_id) {
 function makeYellow(element_id) {
   $('#'+element_id).css('background', '#FAF834');
   $('#'+element_id).css('color', '#000000');
-}</script></head><body><!-- Step count 0--><div class="cucumber"><div id="cucumber-header"><div id="label"><h1>Cucumber Features</h1></div><div id="summary"><p id="totals"></p><p id="duration"></p><div id="expand-collapse"><p id="expander">Expand All</p><p id="collapser">Collapse All</p></div></div></div><div class="feature"><pre class="comment"># language: pt<br/></pre><h2><span class="val">Funcionalidade: Compra de item em site</span></h2><p class="narrative">Como um usuário do sistema<br/>Eu quero realizar a compra de um item no site www.automationpractice.com<br/>Em caráter de teste<br/></p><div class='scenario'><span class="scenario_file">features/automation_step.feature:11</span><h3 id="scenario_1"><span class="keyword">Cenário:</span> <span class="val">Acessar o site Automation Practice com sucesso</span></h3><ol><li id='' class='step passed'><div class="step_name"><span class="keyword">Dado </span><span class="step val">que eu tenha acesso a internet</span></div><div class="step_file"><span>features/step_definitions/automation_step.rb:2</span></div></li><li class="step message">acesso a internet</li> <script type="text/javascript">moveProgressBar('100.0');</script><script>makeRed('cucumber-header');makeRed('scenario_1');</script><li id='' class='step failed'><div class="step_name"><span class="keyword">Quando </span><span class="step val">eu digito o endereço do site Automation Practice</span></div><div class="step_file"><span>features/step_definitions/automation_step.rb:6</span></div><div class="message"><pre>Unable to find chromedriver. Please download the server from
-https://chromedriver.storage.googleapis.com/index.html and place it somewhere on your PATH.
-More info at https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver.
- (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>./features/step_definitions/automation_step.rb:7:in `"eu digito o endereço do site Automation Practice"'
-features/automation_step.feature:13:in `Quando eu digito o endereço do site Automation Practice'</pre></div><pre class="ruby"><code><span class="linenum">5</span>
-<span class="linenum">6</span>Quando("eu digito o endereço do site Automation Practice") do
-<span class="offending"><span class="linenum">7</span>    visit 'http://automationpractice.com/index.php?'</span>
-<span class="linenum">8</span>    
-<span class="linenum">9</span>
-<span class="linenum">10</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">E </span><span class="step val">apertar o botao enter</span></div><div class="step_file"><span>features/step_definitions/automation_step.rb:12</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">Entao </span><span class="step val">o browser deve exibir a página home</span></div><div class="step_file"><span>features/step_definitions/automation_step.rb:16</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><div class="message"><pre>Unable to find chromedriver. Please download the server from
-https://chromedriver.storage.googleapis.com/index.html and place it somewhere on your PATH.
-More info at https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver.
- (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>./features/support/hooks.rb:13:in `add_screenshot'
-./features/support/hooks.rb:2:in `After'</pre></div><pre class="ruby"><code><span class="linenum">11</span>    nome_cenario = nome_cenario.gsub(' ','_').downcase!
-<span class="linenum">12</span>    screenshot = "log/screenshots/#{nome_cenario}.png"
-<span class="offending"><span class="linenum">13</span>    page.save_screenshot(screenshot)</span>
-<span class="linenum">14</span>    embed(screenshot, 'image/png', 'Print maroto :)')
-<span class="linenum">15</span> end
-<span class="linenum">16</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre></ol></div><div class='scenario'><span class="scenario_file">features/automation_step.feature:18</span><h3 id="scenario_2"><span class="keyword">Cenario:</span> <span class="val">Escolher um produto do site</span></h3><ol><li id='' class='step passed'><div class="step_name"><span class="keyword">Dado </span><span class="step val">que eu esteja na tela principal</span></div><div class="step_file"><span>features/step_definitions/automation_step.rb:20</span></div></li><li class="step message">OLA</li> <script type="text/javascript">moveProgressBar('100.0');</script><script>makeRed('scenario_2');</script><li id='' class='step failed'><div class="step_name"><span class="keyword">Quando </span><span class="step val">eu clicar no botao Dresses</span></div><div class="step_file"><span>features/step_definitions/automation_step.rb:24</span></div><div class="message"><pre>Unable to find chromedriver. Please download the server from
-https://chromedriver.storage.googleapis.com/index.html and place it somewhere on your PATH.
-More info at https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver.
- (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>./features/step_definitions/automation_step.rb:25:in `"eu clicar no botao Dresses"'
-features/automation_step.feature:20:in `Quando eu clicar no botao Dresses'</pre></div><pre class="ruby"><code><span class="linenum">23</span>  
-<span class="linenum">24</span>  Quando("eu clicar no botao Dresses") do
-<span class="offending"><span class="linenum">25</span>    find("img [title='Dresses']").hover.click</span>
-<span class="linenum">26</span>  end
-<span class="linenum">27</span>  
-<span class="linenum">28</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">Entao </span><span class="step val">eu serei redirecionado para a pagina de Dresses</span></div><div class="step_file"><span>features/step_definitions/automation_step.rb:28</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><div class="message"><pre>Unable to find chromedriver. Please download the server from
-https://chromedriver.storage.googleapis.com/index.html and place it somewhere on your PATH.
-More info at https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver.
- (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>./features/support/hooks.rb:13:in `add_screenshot'
-./features/support/hooks.rb:2:in `After'</pre></div><pre class="ruby"><code><span class="linenum">11</span>    nome_cenario = nome_cenario.gsub(' ','_').downcase!
-<span class="linenum">12</span>    screenshot = "log/screenshots/#{nome_cenario}.png"
-<span class="offending"><span class="linenum">13</span>    page.save_screenshot(screenshot)</span>
-<span class="linenum">14</span>    embed(screenshot, 'image/png', 'Print maroto :)')
-<span class="linenum">15</span> end
-<span class="linenum">16</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre></ol></div></div><script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>0m0.646s seconds</strong>";</script><script type="text/javascript">document.getElementById('totals').innerHTML = "2 scenarios (2 failed)<br />7 steps (2 failed, 3 skipped, 2 passed)";</script></div></body></html>
+}</script></head><body><!-- Step count 0--><div class="cucumber"><div id="cucumber-header"><div id="label"><h1>Cucumber Features</h1></div><div id="summary"><p id="totals"></p><p id="duration"></p><div id="expand-collapse"><p id="expander">Expand All</p><p id="collapser">Collapse All</p></div></div></div><div class="feature"><pre class="comment"># language: pt<br/></pre><h2><span class="val">Funcionalidade: Realizar compra de um item</span></h2><p class="narrative">Como um usuário do sistema<br/>Eu quero realizar a compra de um item no site www.automationpractice.com<br/>Em caráter de teste<br/></p><div class='scenario'><span class="scenario_file">features/automation_step.feature:10</span><h3 id="scenario_1"><span class="keyword">Cenário:</span> <span class="val">Compra de um produto</span></h3><ol><script>makeRed('cucumber-header');makeRed('scenario_1');</script><li id='' class='step failed'><div class="step_name"><span class="keyword">Dado </span><span class="step val">que eu visite a página da loja</span></div><div class="step_file"><span>features/step_definitions/automation_step.rb:1</span></div><div class="message"><pre>invalid argument
+  (Session info: chrome=79.0.3945.79) (Selenium::WebDriver::Error::InvalidArgumentError)</pre></div><div class="backtrace"><pre>Backtrace:
+	Ordinal0 [0x00FFA923+1550627]
+	Ordinal0 [0x00F7A731+1025841]
+	Ordinal0 [0x00EFC5BE+509374]
+	Ordinal0 [0x00EF4C4D+478285]
+	Ordinal0 [0x00EF40D5+475349]
+	Ordinal0 [0x00EF4135+475445]
+	Ordinal0 [0x00EFD65D+513629]
+	Ordinal0 [0x00EB1E4B+204363]
+	Ordinal0 [0x00EA8E5D+167517]
+	Ordinal0 [0x00EB19E2+203234]
+	Ordinal0 [0x00EA8CDB+167131]
+	Ordinal0 [0x00E9144A+70730]
+	Ordinal0 [0x00E924D0+74960]
+	Ordinal0 [0x00E92469+74857]
+	Ordinal0 [0x00F942F7+1131255]
+	GetHandleVerifier [0x0109711D+523789]
+	GetHandleVerifier [0x01096EB0+523168]
+	GetHandleVerifier [0x0109E207+552695]
+	GetHandleVerifier [0x0109791A+525834]
+	Ordinal0 [0x00F8B82C+1095724]
+	Ordinal0 [0x00F9636B+1139563]
+	Ordinal0 [0x00F964D3+1139923]
+	Ordinal0 [0x00F95455+1135701]
+	BaseThreadInitThunk [0x775C7C04+36]
+	RtlInitializeExceptionChain [0x779AAD2F+143]
+	RtlInitializeExceptionChain [0x779AACFA+90]
+./features/step_definitions/automation_step.rb:2:in `"que eu visite a página da loja"'
+features/automation_step.feature:11:in `Dado que eu visite a página da loja'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for Backtrace:
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre></li> <script type="text/javascript">moveProgressBar('100.0');</script><script></script><li id='' class='step undefined'><div class="step_name"><span class="keyword">E </span><span class="step val">selecione um produto</span></div><div class="step_file"><span>features/automation_step.feature:12</span></div><pre>Dado("selecione um produto") do
+  pending # Write code here that turns the phrase above into concrete actions
+end</pre></li> <script type="text/javascript">moveProgressBar('100.0');</script><script></script><li id='' class='step undefined'><div class="step_name"><span class="keyword">Quando </span><span class="step val">realizar o checkout</span></div><div class="step_file"><span>features/automation_step.feature:13</span></div><pre>Quando("realizar o checkout") do
+  pending # Write code here that turns the phrase above into concrete actions
+end</pre></li> <script type="text/javascript">moveProgressBar('100.0');</script><script></script><li id='' class='step undefined'><div class="step_name"><span class="keyword">E </span><span class="step val">preencher os dados de cadastro</span></div><div class="step_file"><span>features/automation_step.feature:14</span></div><pre>Quando("preencher os dados de cadastro") do
+  pending # Write code here that turns the phrase above into concrete actions
+end</pre></li> <script type="text/javascript">moveProgressBar('100.0');</script><script></script><li id='' class='step undefined'><div class="step_name"><span class="keyword">E </span><span class="step val">realizar o pagamento</span></div><div class="step_file"><span>features/automation_step.feature:15</span></div><pre>Quando("realizar o pagamento") do
+  pending # Write code here that turns the phrase above into concrete actions
+end</pre></li> <script type="text/javascript">moveProgressBar('100.0');</script><script></script><li id='' class='step undefined'><div class="step_name"><span class="keyword">Então </span><span class="step val">a compra pode ser realizada com sucesso.</span></div><div class="step_file"><span>features/automation_step.feature:16</span></div><pre>Então("a compra pode ser realizada com sucesso.") do
+  pending # Write code here that turns the phrase above into concrete actions
+end</pre></li> <script type="text/javascript">moveProgressBar('100.0');</script><span class="embed"><a href="" onclick="img=document.getElementById('img_1'); img.style.display = (img.style.display == 'none' ? 'block' : 'none');return false">Print maroto :)</a><br>&nbsp;
+          <img id="img_1" style="display: none" src="log/screenshots/compradeumproduto.png"/></span><span class="embed"><a id="text_1" href="2019-12-11-15-17-36
+Current URL: data:,
+" title="BROWSER ERROR">BROWSER ERROR</a></span></ol></div></div><script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>0m5.340s seconds</strong>";</script><script type="text/javascript">document.getElementById('totals').innerHTML = "1 scenario (1 failed)<br />6 steps (1 failed, 5 undefined)";</script></div></body></html>

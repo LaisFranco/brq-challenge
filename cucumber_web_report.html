@@ -34,54 +34,63 @@
 </div>
 </header>
 <div id="g0f0s0" class="modal modal-fixed-footer">
-<div class="modal-content"><h5>Acessar o site Automation Practice com sucesso (0.523s)</h5>
-features/automation_step.feature:11<ul class="collection stepList"><li class="collection-item step passed">
-<b>Dado </b> que eu tenha acesso a internet (0.000s)<pre>acesso a internet</pre></li>
-<li class="collection-item step failed">
-<b>Quando </b> eu digito o endereço do site Automation Practice (0.505s)<pre>Unable to find chromedriver. Please download the server from
-https://chromedriver.storage.googleapis.com/index.html and place it somewhere on your PATH.
-More info at https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver.
- (Selenium::WebDriver::Error::WebDriverError)
-./features/step_definitions/automation_step.rb:7:in `&quot;eu digito o endereço do site Automation Practice&quot;&#39;
-features/automation_step.feature:13:in `Quando eu digito o endereço do site Automation Practice&#39;</pre>
+<div class="modal-content"><h5>Compra de um produto (5.217s)</h5>
+features/automation_step.feature:10<ul class="collection stepList"><li class="collection-item step failed">
+<b>Dado </b> que eu visite a página da loja (4.761s)<pre>invalid argument
+(Session info: chrome=79.0.3945.79) (Selenium::WebDriver::Error::InvalidArgumentError)
+Backtrace:
+	Ordinal0 [0x00FFA923+1550627]
+	Ordinal0 [0x00F7A731+1025841]
+	Ordinal0 [0x00EFC5BE+509374]
+	Ordinal0 [0x00EF4C4D+478285]
+	Ordinal0 [0x00EF40D5+475349]
+	Ordinal0 [0x00EF4135+475445]
+	Ordinal0 [0x00EFD65D+513629]
+	Ordinal0 [0x00EB1E4B+204363]
+	Ordinal0 [0x00EA8E5D+167517]
+	Ordinal0 [0x00EB19E2+203234]
+	Ordinal0 [0x00EA8CDB+167131]
+	Ordinal0 [0x00E9144A+70730]
+	Ordinal0 [0x00E924D0+74960]
+	Ordinal0 [0x00E92469+74857]
+	Ordinal0 [0x00F942F7+1131255]
+	GetHandleVerifier [0x0109711D+523789]
+	GetHandleVerifier [0x01096EB0+523168]
+	GetHandleVerifier [0x0109E207+552695]
+	GetHandleVerifier [0x0109791A+525834]
+	Ordinal0 [0x00F8B82C+1095724]
+	Ordinal0 [0x00F9636B+1139563]
+	Ordinal0 [0x00F964D3+1139923]
+	Ordinal0 [0x00F95455+1135701]
+	BaseThreadInitThunk [0x775C7C04+36]
+	RtlInitializeExceptionChain [0x779AAD2F+143]
+	RtlInitializeExceptionChain [0x779AACFA+90]
+./features/step_definitions/automation_step.rb:2:in `&quot;que eu visite a página da loja&quot;&#39;
+features/automation_step.feature:11:in `Dado que eu visite a página da loja&#39;</pre>
 </li>
-<li class="collection-item step skipped">
-<b>E </b> apertar o botao enter (0.000s)</li>
-<li class="collection-item step skipped">
-<b>Entao </b> o browser deve exibir a página home (0.000s)</li>
-</ul><pre>Unable to find chromedriver. Please download the server from
-https://chromedriver.storage.googleapis.com/index.html and place it somewhere on your PATH.
-More info at https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver.
- (Selenium::WebDriver::Error::WebDriverError)
-./features/support/hooks.rb:13:in `add_screenshot&#39;
-./features/support/hooks.rb:2:in `After&#39;</pre></div><div class="modal-footer">
-<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
-</div>
-</div><div id="g0f0s1" class="modal modal-fixed-footer">
-<div class="modal-content"><h5>Escolher um produto do site (0.039s)</h5>
-features/automation_step.feature:18<ul class="collection stepList"><li class="collection-item step passed">
-<b>Dado </b> que eu esteja na tela principal (0.000s)<pre>OLA</pre></li>
-<li class="collection-item step failed">
-<b>Quando </b> eu clicar no botao Dresses (0.019s)<pre>Unable to find chromedriver. Please download the server from
-https://chromedriver.storage.googleapis.com/index.html and place it somewhere on your PATH.
-More info at https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver.
- (Selenium::WebDriver::Error::WebDriverError)
-./features/step_definitions/automation_step.rb:25:in `&quot;eu clicar no botao Dresses&quot;&#39;
-features/automation_step.feature:20:in `Quando eu clicar no botao Dresses&#39;</pre>
-</li>
-<li class="collection-item step skipped">
-<b>Entao </b> eu serei redirecionado para a pagina de Dresses (0.000s)</li>
-</ul><pre>Unable to find chromedriver. Please download the server from
-https://chromedriver.storage.googleapis.com/index.html and place it somewhere on your PATH.
-More info at https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver.
- (Selenium::WebDriver::Error::WebDriverError)
-./features/support/hooks.rb:13:in `add_screenshot&#39;
-./features/support/hooks.rb:2:in `After&#39;</pre></div><div class="modal-footer">
+<li class="collection-item step undefined">
+<b>E </b> selecione um produto (0.000s)</li>
+<li class="collection-item step undefined">
+<b>Quando </b> realizar o checkout (0.000s)</li>
+<li class="collection-item step undefined">
+<b>E </b> preencher os dados de cadastro (0.000s)</li>
+<li class="collection-item step undefined">
+<b>E </b> realizar o pagamento (0.000s)</li>
+<li class="collection-item step undefined">
+<b>Então </b> a compra pode ser realizada com sucesso. (0.000s)</li>
+</ul><br>
+<img class="materialboxed" data-caption='Compra de um produto' width="250" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAoAAAJACAYAAAAEt4QcAAAAAXNSR0IArs4c6QAADVhJREFUeJzt2DEBwDAMwLCs/Dlnnym0h4TAt7/d3QEAAACYmXM7AAAAAHiHUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgRgEAAAAQowAAAACIUQAAAADEKAAAAABiFAAAAAAxCgAAAIAYBQAAAECMAgAAACBGAQAAABCjAAAAAIhRAAAAAMQoAAAAAGIUAAAAADEKAAAAgBgFAAAAQIwCAAAAIEYBAAAAEKMAAAAAiFEAAAAAxCgAAAAAYhQAAAAAMQoAAACAGAUAAABAjAIAAAAgP7xqCHxX5to9AAAAAElFTkSuQmCC"><br>
+<a href="2019-12-11-15-17-36
+Current URL: data:,
+">2019-12-11-15-17-36
+Current URL: data:,
+</a>
+</div><div class="modal-footer">
 <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
 </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();$('#g0f0s2').modal();});
+$(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();});
 </script>
 <main class="brown lighten-5">
 <div class="row"><div id="overview" class="col s12 brown lighten-5">
@@ -99,7 +108,7 @@ $(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();$('#g0f
 </div><div class="col m4 s12">
 <table id="metaData" class="bordered">
 <tbody>
-<tr><th>Total Time</th><td>0.561s</td></tr><tr>
+<tr><th>Total Time</th><td>5.217s</td></tr><tr>
 <th>Project name</th>
 <td>Test</td>
 </tr><tr>
@@ -107,7 +116,7 @@ $(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();$('#g0f
 <td>Integration</td>
 </tr><tr>
 <th>Report generated</th>
-<td>2019-12-11 12:36:56 UTC</td>
+<td>2019-12-11 17:17:37 UTC</td>
 </tr></tbody>
 </table>
 </div>
@@ -116,15 +125,11 @@ $(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();$('#g0f
 <li class="feature broken">
 <div class="collapsible-header brown lighten-1 waves-effect waves-light">
 <i class="material-icons">featured_play_list</i>
-<b>Funcionalidade</b>&nbsp;Compra de item em site&nbsp;(0.561s)
+<b>Funcionalidade</b>&nbsp;Realizar compra de um item&nbsp;(5.217s)
 </div><div class="collapsible-body brown lighten-4">
 <ul class="collection scenarioList"><li class="collection-item scenario failed">
 <a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s0">
-<b>Cenário</b> Acessar o site Automation Practice com sucesso&nbsp;(0.523s)
-</a>
-</li><li class="collection-item scenario failed">
-<a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s1">
-<b>Cenario</b> Escolher um produto do site&nbsp;(0.039s)
+<b>Cenário</b> Compra de um produto&nbsp;(5.217s)
 </a>
 </li></ul>
 </div>
@@ -142,31 +147,21 @@ $(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();$('#g0f
 </thead>
 <tbody><tr class="failed">
 <td class="hide-on-small-only">
-Compra de item em site
+Realizar compra de um item
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f0s0">Acessar o site Automation Practice com sucesso</a>
+<a class="modal-trigger white-text" href="#g0f0s0">Compra de um produto</a>
 </td><td class="hide"></td><td class="uppercase">
 failed
-</td><td class="hide-on-small-only">Unable to find chromedriver. Please download the server from</td></tr>
-<tr class="failed">
-<td class="hide-on-small-only">
-Compra de item em site
-</td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f0s1">Escolher um produto do site</a>
-</td><td class="hide"></td><td class="uppercase">
-failed
-</td><td class="hide-on-small-only">Unable to find chromedriver. Please download the server from</td></tr>
+</td><td class="hide-on-small-only">invalid argument</td></tr>
 </tbody>
 </table></div><div id="errors" class="col s12 brown lighten-5">
 <ul class="errorList collapsible popout" data-collapsible="expandable"><li class="error">
 <div class="collapsible-header red lighten-2 white-text waves-effect waves-light">
-<i class="material-icons">bug_report</i>Unable to find chromedriver. Please download the server from
+<i class="material-icons">bug_report</i>invalid argument
 </div><div class="collapsible-body brown lighten-4">
 <ul class="collection failedScenarioList">
 <li class="collection-item failedScenario brown lighten-5 red-text">
-<i class="material-icons">highlight_off</i>&nbsp;<a class="modal-trigger red-text" href="#g0f0s0">Acessar o site Automation Practice com sucesso</a>
-</li><li class="collection-item failedScenario brown lighten-5 red-text">
-<i class="material-icons">highlight_off</i>&nbsp;<a class="modal-trigger red-text" href="#g0f0s1">Escolher um produto do site</a>
+<i class="material-icons">highlight_off</i>&nbsp;<a class="modal-trigger red-text" href="#g0f0s0">Compra de um produto</a>
 </li>
 </ul>
 </div>

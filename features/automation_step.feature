@@ -1,21 +1,18 @@
 
 # language : pt
 
-Funcionalidade: Compra de item em site
+Funcionalidade: Realizar compra de um item
 
     Como um usuário do sistema
     Eu quero realizar a compra de um item no site www.automationpractice.com
     Em caráter de teste 
 
+    Cenário: Compra de um produto
+        Dado que eu visite a página da loja
+        E selecione um produto 
+        Quando realizar o checkout
+        E preencher os dados de cadastro
+        E realizar o pagamento
+        Então a compra pode ser realizada com sucesso.
 
-    Cenário: Acessar o site Automation Practice com sucesso
-        Dado    que eu tenha acesso a internet
-        Quando  eu digito o endereço do site Automation Practice
-        E       apertar o botao enter
-        Entao   o browser deve exibir a página home
-
-
-    Cenario: Escolher um produto do site
-         Dado que eu esteja na tela principal
-         Quando eu clicar no botao Dresses
-         Entao eu serei redirecionado para a pagina de Dresses  
+ 
