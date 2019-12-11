@@ -1,7 +1,5 @@
 # brq-challenge
 
-
-
 // instruções
 
 
@@ -14,15 +12,7 @@
 	e.	ruby
 	
 
-
-2.	com o git ja instalado, "clonar" o projeto no github:
-
-	
-		git clone https://github.com/alexandremot/brq-challenge.git
-	
-
-
-3.	o projeto contem um arquivo chamado Gemfile - o qual contém a lista de todos as bibliotecas das quais o projeto necessita
+2.	o projeto contem um arquivo chamado Gemfile - o qual contém a lista de todos as bibliotecas das quais o projeto necessita
 
 	ao rodar o comando:
 	
