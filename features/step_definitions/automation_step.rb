@@ -22,7 +22,7 @@ Dado("que eu esteja na tela principal") do
   end
   
   Quando("eu clicar no botao Dresses") do
-   find('class.sf-with-ul').click
+    find("img [title='Dresses']").hover.click
   end
   
   Entao("eu serei redirecionado para a pagina de Dresses") do
